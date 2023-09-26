@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LigaMX>
     <Partido>
-        <FechaPartido>16-09-23</FechaPartido>
+        <Fecha>16-09-23</Fecha>
         <Equipos>
             <Local>America</Local>
             <Visitante>Guadalajara</Visitante>
@@ -31,4 +31,28 @@
             </GolesLocales>
         </Goles>
     </Partido>
+
+        <Partido>
+            <Fecha>16-09-23</Fecha>
+            <Equipos>
+                <Local>Necaxa</Local>
+                <Visitante>Fc Juarez</Visitante>
+            </Equipos>
+            <MarcadorFinal>1 - 1</MarcadorFinal>
+            <Goles>
+                <GolesLocales>
+                    <Anotacion>
+                        <Jugador>F. Batista</Jugador>
+                        <Minuto>16</Minuto>
+                    </Anotacion>
+                </GolesLocales>
+
+                <GolesVisitantes>
+                    <Anotacion>
+                        <Jugador>J. Chancelior</Jugador>
+                        <Minuto>45 + 8 </Minuto>
+                    </Anotacion>
+                </GolesVisitantes>
+            </Goles>
+        </Partido>
 </LigaMX>

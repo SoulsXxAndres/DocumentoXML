@@ -1,14 +1,15 @@
 <!DOCTYPE LigaMX [
         <!ELEMENT LigaMX (Partido)*>
-        <!ELEMENT Partido (FechaPartido|Equipos|MarcadorFinal|Goles)*>
-        <!ELEMENT FechaPartido (#PCDATA)>
+        <!ELEMENT Partido (Fecha|Equipos|MarcadorFinal|Goles)*>
+        <!ELEMENT Fecha (#PCDATA)>
         <!ELEMENT Equipos (Local|Visitante)*>
         <!ELEMENT Local (#PCDATA)>
         <!ELEMENT Visitante (#PCDATA)>
         <!ELEMENT MarcadorFinal (#PCDATA)>
-        <!ELEMENT Goles (GolesLocales)*>
+        <!ELEMENT Goles (GolesLocales|GolesVisitantes)*>
         <!ELEMENT GolesLocales (Anotacion)*>
         <!ELEMENT Anotacion (Jugador|Minuto)*>
         <!ELEMENT Jugador (#PCDATA)>
         <!ELEMENT Minuto (#PCDATA)>
+        <!ELEMENT GolesVisitantes (Anotacion)*>
         ]>
