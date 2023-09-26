@@ -1,7 +1,7 @@
 <!DOCTYPE LigaMX [
-        <!ELEMENT LigaMX (FechaPartido|Partido)*>
+        <!ELEMENT LigaMX (Partido)*>
+        <!ELEMENT Partido (FechaPartido|Equipos|MarcadorFinal|Goles)*>
         <!ELEMENT FechaPartido (#PCDATA)>
-        <!ELEMENT Partido (Equipos|MarcadorFinal|Goles)*>
         <!ELEMENT Equipos (Local|Visitante)*>
         <!ELEMENT Local (#PCDATA)>
         <!ELEMENT Visitante (#PCDATA)>
