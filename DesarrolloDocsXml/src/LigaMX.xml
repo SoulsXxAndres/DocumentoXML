@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <LigaMX>
-<FechaPartido>16-09-23</FechaPartido>
     <Partido>
+        <FechaPartido>16-09-23</FechaPartido>
         <Equipos>
             <Local>America</Local>
             <Visitante>Guadalajara</Visitante>
